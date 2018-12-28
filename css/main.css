@@ -1,0 +1,41 @@
+div.sidebar {
+    background-color: rgb(118, 151, 250);
+    border-radius: 15px;
+    width: 20%;
+    height: 100%;
+    /* height: 40px; */
+    color: white;
+    float: left;
+}
+
+div.content {
+    padding-left: 10px;
+    padding-top: 10px;
+    float: left;
+    background-color: beige ;
+    border-radius: 15px;
+    width: 75%;
+    height: 100%;
+    color: white;
+}
+
+div.content p.linkedinprofile{
+    color: black;
+}
+
+/* div.sidebar div.profilepic img {
+    display: block; 
+    float: left; 
+    right: 50%;
+    align-items: center;
+} */
+
+div.sidebar div.profilepic img {
+    border-radius: 25%;
+    display: block;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 30%;
+}
