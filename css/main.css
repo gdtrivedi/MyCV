@@ -8,6 +8,13 @@ div.sidebar {
     float: left;
 }
 
+div.sidebar div.profiletitle {
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 div.content {
     padding-left: 10px;
     padding-top: 10px;
@@ -22,13 +29,6 @@ div.content {
 div.content p.linkedinprofile{
     color: black;
 }
-
-/* div.sidebar div.profilepic img {
-    display: block; 
-    float: left; 
-    right: 50%;
-    align-items: center;
-} */
 
 div.sidebar div.profilepic img {
     border-radius: 25%;
